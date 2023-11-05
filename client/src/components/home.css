@@ -1,0 +1,42 @@
+.home{
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+}
+
+.products-list{
+    display: flex;
+    gap: 10px;
+    flex-shrink: none;
+    flex-wrap: wrap;
+}
+
+.product{
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.product-image{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.heading{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.start-price{
+    font-size: 16px;
+}
+
+.start-price span{
+    font-weight: 600;
+    font-size: 20px;
+}
