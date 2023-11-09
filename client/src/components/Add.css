@@ -1,0 +1,46 @@
+.add-products{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-products form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    text-align: left;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.37);
+    border-radius: 20px;
+}
+.add-products input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.add-products label{
+    width: 100%;
+    font-size: 16px;
+    text-align: left;
+}
+
+.add-products button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    background-color: #fa9600;
+    transition: all 0.3s ease-in-out;
+}
+
